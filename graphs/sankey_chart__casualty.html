@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="7b7f5b4a64be43fd8d2a72af46898dad" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_7b7f5b4a64be43fd8d2a72af46898dad = echarts.init(
+            document.getElementById('7b7f5b4a64be43fd8d2a72af46898dad'), 'white', {renderer: 'canvas'});
+        var option_7b7f5b4a64be43fd8d2a72af46898dad = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "sankey",
+            "data": [
+                {
+                    "name": "Weekdays"
+                },
+                {
+                    "name": "Weekends"
+                },
+                {
+                    "name": "Fatal"
+                },
+                {
+                    "name": "Serious"
+                },
+                {
+                    "name": "Slight"
+                },
+                {
+                    "name": "0 - 18"
+                },
+                {
+                    "name": "19 - 25"
+                },
+                {
+                    "name": "26 - 35"
+                },
+                {
+                    "name": "36 - 45"
+                },
+                {
+                    "name": "46 - 55"
+                },
+                {
+                    "name": "56 - 65"
+                },
+                {
+                    "name": "65+"
+                }
+            ],
+            "links": [
+                {
+                    "source": "0 - 18",
+                    "target": "Weekdays",
+                    "value": 2078
+                },
+                {
+                    "source": "0 - 18",
+                    "target": "Weekends",
+                    "value": 711
+                },
+                {
+                    "source": "19 - 25",
+                    "target": "Weekdays",
+                    "value": 3296
+                },
+                {
+                    "source": "19 - 25",
+                    "target": "Weekends",
+                    "value": 1349
+                },
+                {
+                    "source": "26 - 35",
+                    "target": "Weekdays",
+                    "value": 5799
+                },
+                {
+                    "source": "26 - 35",
+                    "target": "Weekends",
+                    "value": 2129
+                },
+                {
+                    "source": "36 - 45",
+                    "target": "Weekdays",
+                    "value": 4200
+                },
+                {
+                    "source": "36 - 45",
+                    "target": "Weekends",
+                    "value": 1377
+                },
+                {
+                    "source": "46 - 55",
+                    "target": "Weekdays",
+                    "value": 2957
+                },
+                {
+                    "source": "46 - 55",
+                    "target": "Weekends",
+                    "value": 978
+                },
+                {
+                    "source": "56 - 65",
+                    "target": "Weekdays",
+                    "value": 1510
+                },
+                {
+                    "source": "56 - 65",
+                    "target": "Weekends",
+                    "value": 514
+                },
+                {
+                    "source": "65+",
+                    "target": "Weekdays",
+                    "value": 1203
+                },
+                {
+                    "source": "65+",
+                    "target": "Weekends",
+                    "value": 341
+                },
+                {
+                    "source": "Fatal",
+                    "target": "0 - 18",
+                    "value": 14
+                },
+                {
+                    "source": "Fatal",
+                    "target": "19 - 25",
+                    "value": 29
+                },
+                {
+                    "source": "Fatal",
+                    "target": "26 - 35",
+                    "value": 34
+                },
+                {
+                    "source": "Fatal",
+                    "target": "36 - 45",
+                    "value": 21
+                },
+                {
+                    "source": "Fatal",
+                    "target": "46 - 55",
+                    "value": 16
+                },
+                {
+                    "source": "Fatal",
+                    "target": "56 - 65",
+                    "value": 14
+                },
+                {
+                    "source": "Fatal",
+                    "target": "65+",
+                    "value": 38
+                },
+                {
+                    "source": "Serious",
+                    "target": "0 - 18",
+                    "value": 460
+                },
+                {
+                    "source": "Serious",
+                    "target": "19 - 25",
+                    "value": 730
+                },
+                {
+                    "source": "Serious",
+                    "target": "26 - 35",
+                    "value": 1048
+                },
+                {
+                    "source": "Serious",
+                    "target": "36 - 45",
+                    "value": 770
+                },
+                {
+                    "source": "Serious",
+                    "target": "46 - 55",
+                    "value": 588
+                },
+                {
+                    "source": "Serious",
+                    "target": "56 - 65",
+                    "value": 331
+                },
+                {
+                    "source": "Serious",
+                    "target": "65+",
+                    "value": 375
+                },
+                {
+                    "source": "Slight",
+                    "target": "0 - 18",
+                    "value": 2315
+                },
+                {
+                    "source": "Slight",
+                    "target": "19 - 25",
+                    "value": 3886
+                },
+                {
+                    "source": "Slight",
+                    "target": "26 - 35",
+                    "value": 6846
+                },
+                {
+                    "source": "Slight",
+                    "target": "36 - 45",
+                    "value": 4786
+                },
+                {
+                    "source": "Slight",
+                    "target": "46 - 55",
+                    "value": 3331
+                },
+                {
+                    "source": "Slight",
+                    "target": "56 - 65",
+                    "value": 1679
+                },
+                {
+                    "source": "Slight",
+                    "target": "65+",
+                    "value": 1131
+                }
+            ],
+            "left": "5%",
+            "top": "5%",
+            "right": "20%",
+            "bottom": "5%",
+            "nodeWidth": 20,
+            "nodeGap": 30,
+            "nodeAlign": "justify",
+            "layoutIteration": 32,
+            "orient": "horizontal",
+            "draggable": true,
+            "focusNodeAdjacency": false,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 0.3,
+                "curveness": 0.5,
+                "type": "solid",
+                "color": "source"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_7b7f5b4a64be43fd8d2a72af46898dad.setOption(option_7b7f5b4a64be43fd8d2a72af46898dad);
+    </script>
+</body>
+</html>

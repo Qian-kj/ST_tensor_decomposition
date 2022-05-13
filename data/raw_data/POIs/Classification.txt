@@ -1,0 +1,21 @@
+1. Classification
+Note : 'groupname'['categoryna':'classname']
+raw groupname: ['Accommodation, Eating and Drinking', 'Commercial Services', 'Attractions', 
+	'Sport and Entertainment', 'Education and Health', 'Public Infrastructure', 
+	'Transport', 'Manufacturing and Production', 'Retail']
+modified groupname: ['Accommodation', 'Eating and Drinking', 'Commercial Services', 'Attractions', 'Sport and Entertainment', 
+	['Health':'Health Practitioners and Establishments', 'Health Support Services','Animal Welfare'], 
+	['Education':'Recreational and Vocational Education','Primary, Secondary and Tertiary Education', 'Education Support Services], 
+	['Public Infrastructure':drop(['Letter Boxes','Wifi Hotspots'])],'Manufacturing and Production', 'Retail', 'Transport']
+(*)POI categories: [
+	'Accommodation' : 'Accommodation, Eating and Drinking'['Accommodation' : 'Youth Accommodation', 'Bed and Breakfast and Backpacker Accommodation',
+       	'Hotels, Motels, Country Houses and Inns', 'Self Catering'], 
+	'Work' : 'Manufacturing and Production'['Industrial Features', 'Farming', 'Industrial Products', 'Extractive Industries']+'Commercial Services',
+	'Food' : 'Accommodation, Eating and Drinking'['Eating and Drinking'],
+	'Shop' : 'Retail'+ 'Manufacturing and Production'['Foodstuffs', 'Consumer Products'],
+	'Education' : 'Education and Health'['Recreational and Vocational Education', 'Primary, Secondary and Tertiary Education', 'Education Support Services'],
+	'Attractions' : 'Attractions',
+	'Transport stations' : 'Transport'['Public Transport, Stations and Infrastructure']+'Transport'['Bus Transport']
+	'Parking and Petrol stations' : 'Transport'['Road and Rail':'Petrol and Fuel Stations', 'Parking'],
+	'Sport and Entertainment' : 'Sport and Entertainment'
+]
