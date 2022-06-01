@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="7c74368114b64b37b51d19f4f6dd4160" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_7c74368114b64b37b51d19f4f6dd4160 = echarts.init(
+            document.getElementById('7c74368114b64b37b51d19f4f6dd4160'), 'white', {renderer: 'canvas'});
+        var option_7c74368114b64b37b51d19f4f6dd4160 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "sankey",
+            "data": [
+                {
+                    "name": "Sunday"
+                },
+                {
+                    "name": "Monday"
+                },
+                {
+                    "name": "Tuesday"
+                },
+                {
+                    "name": "Wednesday"
+                },
+                {
+                    "name": "Thursday"
+                },
+                {
+                    "name": "Friday"
+                },
+                {
+                    "name": "Saturday"
+                },
+                {
+                    "name": "Fatal"
+                },
+                {
+                    "name": "Serious"
+                },
+                {
+                    "name": "Slight"
+                },
+                {
+                    "name": "0 - 18"
+                },
+                {
+                    "name": "19 - 25"
+                },
+                {
+                    "name": "26 - 35"
+                },
+                {
+                    "name": "36 - 45"
+                },
+                {
+                    "name": "46 - 55"
+                },
+                {
+                    "name": "56 - 65"
+                },
+                {
+                    "name": "65+"
+                }
+            ],
+            "links": [
+                {
+                    "source": "0 - 18",
+                    "target": "Friday",
+                    "value": 344
+                },
+                {
+                    "source": "0 - 18",
+                    "target": "Monday",
+                    "value": 276
+                },
+                {
+                    "source": "0 - 18",
+                    "target": "Saturday",
+                    "value": 264
+                },
+                {
+                    "source": "0 - 18",
+                    "target": "Sunday",
+                    "value": 243
+                },
+                {
+                    "source": "0 - 18",
+                    "target": "Thursday",
+                    "value": 312
+                },
+                {
+                    "source": "0 - 18",
+                    "target": "Tuesday",
+                    "value": 283
+                },
+                {
+                    "source": "0 - 18",
+                    "target": "Wednesday",
+                    "value": 299
+                },
+                {
+                    "source": "19 - 25",
+                    "target": "Friday",
+                    "value": 678
+                },
+                {
+                    "source": "19 - 25",
+                    "target": "Monday",
+                    "value": 517
+                },
+                {
+                    "source": "19 - 25",
+                    "target": "Saturday",
+                    "value": 611
+                },
+                {
+                    "source": "19 - 25",
+                    "target": "Sunday",
+                    "value": 506
+                },
+                {
+                    "source": "19 - 25",
+                    "target": "Thursday",
+                    "value": 616
+                },
+                {
+                    "source": "19 - 25",
+                    "target": "Tuesday",
+                    "value": 570
+                },
+                {
+                    "source": "19 - 25",
+                    "target": "Wednesday",
+                    "value": 578
+                },
+                {
+                    "source": "26 - 35",
+                    "target": "Friday",
+                    "value": 1133
+                },
+                {
+                    "source": "26 - 35",
+                    "target": "Monday",
+                    "value": 970
+                },
+                {
+                    "source": "26 - 35",
+                    "target": "Saturday",
+                    "value": 988
+                },
+                {
+                    "source": "26 - 35",
+                    "target": "Sunday",
+                    "value": 797
+                },
+                {
+                    "source": "26 - 35",
+                    "target": "Thursday",
+                    "value": 1041
+                },
+                {
+                    "source": "26 - 35",
+                    "target": "Tuesday",
+                    "value": 956
+                },
+                {
+                    "source": "26 - 35",
+                    "target": "Wednesday",
+                    "value": 1099
+                },
+                {
+                    "source": "36 - 45",
+                    "target": "Friday",
+                    "value": 725
+                },
+                {
+                    "source": "36 - 45",
+                    "target": "Monday",
+                    "value": 618
+                },
+                {
+                    "source": "36 - 45",
+                    "target": "Saturday",
+                    "value": 567
+                },
+                {
+                    "source": "36 - 45",
+                    "target": "Sunday",
+                    "value": 496
+                },
+                {
+                    "source": "36 - 45",
+                    "target": "Thursday",
+                    "value": 665
+                },
+                {
+                    "source": "36 - 45",
+                    "target": "Tuesday",
+                    "value": 730
+                },
+                {
+                    "source": "36 - 45",
+                    "target": "Wednesday",
+                    "value": 700
+                },
+                {
+                    "source": "46 - 55",
+                    "target": "Friday",
+                    "value": 487
+                },
+                {
+                    "source": "46 - 55",
+                    "target": "Monday",
+                    "value": 454
+                },
+                {
+                    "source": "46 - 55",
+                    "target": "Saturday",
+                    "value": 370
+                },
+                {
+                    "source": "46 - 55",
+                    "target": "Sunday",
+                    "value": 293
+                },
+                {
+                    "source": "46 - 55",
+                    "target": "Thursday",
+                    "value": 473
+                },
+                {
+                    "source": "46 - 55",
+                    "target": "Tuesday",
+                    "value": 464
+                },
+                {
+                    "source": "46 - 55",
+                    "target": "Wednesday",
+                    "value": 513
+                },
+                {
+                    "source": "56 - 65",
+                    "target": "Friday",
+                    "value": 269
+                },
+                {
+                    "source": "56 - 65",
+                    "target": "Monday",
+                    "value": 230
+                },
+                {
+                    "source": "56 - 65",
+                    "target": "Saturday",
+                    "value": 221
+                },
+                {
+                    "source": "56 - 65",
+                    "target": "Sunday",
+                    "value": 148
+                },
+                {
+                    "source": "56 - 65",
+                    "target": "Thursday",
+                    "value": 254
+                },
+                {
+                    "source": "56 - 65",
+                    "target": "Tuesday",
+                    "value": 219
+                },
+                {
+                    "source": "56 - 65",
+                    "target": "Wednesday",
+                    "value": 241
+                },
+                {
+                    "source": "65+",
+                    "target": "Friday",
+                    "value": 150
+                },
+                {
+                    "source": "65+",
+                    "target": "Monday",
+                    "value": 117
+                },
+                {
+                    "source": "65+",
+                    "target": "Saturday",
+                    "value": 113
+                },
+                {
+                    "source": "65+",
+                    "target": "Sunday",
+                    "value": 84
+                },
+                {
+                    "source": "65+",
+                    "target": "Thursday",
+                    "value": 159
+                },
+                {
+                    "source": "65+",
+                    "target": "Tuesday",
+                    "value": 152
+                },
+                {
+                    "source": "65+",
+                    "target": "Wednesday",
+                    "value": 146
+                },
+                {
+                    "source": "Fatal",
+                    "target": "0 - 18",
+                    "value": 5
+                },
+                {
+                    "source": "Fatal",
+                    "target": "19 - 25",
+                    "value": 17
+                },
+                {
+                    "source": "Fatal",
+                    "target": "26 - 35",
+                    "value": 34
+                },
+                {
+                    "source": "Fatal",
+                    "target": "36 - 45",
+                    "value": 22
+                },
+                {
+                    "source": "Fatal",
+                    "target": "46 - 55",
+                    "value": 17
+                },
+                {
+                    "source": "Fatal",
+                    "target": "56 - 65",
+                    "value": 7
+                },
+                {
+                    "source": "Fatal",
+                    "target": "65+",
+                    "value": 23
+                },
+                {
+                    "source": "Serious",
+                    "target": "0 - 18",
+                    "value": 343
+                },
+                {
+                    "source": "Serious",
+                    "target": "19 - 25",
+                    "value": 526
+                },
+                {
+                    "source": "Serious",
+                    "target": "26 - 35",
+                    "value": 847
+                },
+                {
+                    "source": "Serious",
+                    "target": "36 - 45",
+                    "value": 621
+                },
+                {
+                    "source": "Serious",
+                    "target": "46 - 55",
+                    "value": 489
+                },
+                {
+                    "source": "Serious",
+                    "target": "56 - 65",
+                    "value": 276
+                },
+                {
+                    "source": "Serious",
+                    "target": "65+",
+                    "value": 212
+                },
+                {
+                    "source": "Slight",
+                    "target": "0 - 18",
+                    "value": 1673
+                },
+                {
+                    "source": "Slight",
+                    "target": "19 - 25",
+                    "value": 3533
+                },
+                {
+                    "source": "Slight",
+                    "target": "26 - 35",
+                    "value": 6103
+                },
+                {
+                    "source": "Slight",
+                    "target": "36 - 45",
+                    "value": 3858
+                },
+                {
+                    "source": "Slight",
+                    "target": "46 - 55",
+                    "value": 2548
+                },
+                {
+                    "source": "Slight",
+                    "target": "56 - 65",
+                    "value": 1299
+                },
+                {
+                    "source": "Slight",
+                    "target": "65+",
+                    "value": 686
+                }
+            ],
+            "left": "5%",
+            "top": "5%",
+            "right": "20%",
+            "bottom": "5%",
+            "nodeWidth": 20,
+            "nodeGap": 30,
+            "nodeAlign": "justify",
+            "layoutIteration": 32,
+            "orient": "horizontal",
+            "draggable": true,
+            "focusNodeAdjacency": false,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 0.3,
+                "curveness": 0.5,
+                "type": "solid",
+                "color": "source"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "Sankey chart for accident by age groups",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_7c74368114b64b37b51d19f4f6dd4160.setOption(option_7c74368114b64b37b51d19f4f6dd4160);
+    </script>
+</body>
+</html>
