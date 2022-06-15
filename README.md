@@ -1,6 +1,6 @@
 # ST_tensor_decomposition
 This is a new trial of tensor decomposition for exploring the multidimensional patterns in urban computing.
-1. All raw data is in document 'data'.
+1. All raw data is in the document 'data'.
 2. Planar KDE is done through QGIS, while the Network KDE is done through SANET (please see: http://sanet.csis.u-tokyo.ac.jp/).
 The results are put into document 'KDE'
 3. Bivariate Moran's I is done based on GeoDa.
