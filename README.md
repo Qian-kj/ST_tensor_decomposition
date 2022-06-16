@@ -10,4 +10,3 @@ The data and code is put into document 'Regression'
 The results are put into document 'GeoDetector'
 6. The remained analysis is undertaken based on Python in Spatiotemporal data mining.ipynb
 7. car crashes in both 2019 and 2020 are considered.
-8. 
