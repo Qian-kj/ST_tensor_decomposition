@@ -9,4 +9,4 @@ The data and code is put into document 'Regression'
 5. Individual and interactive effects of factors is analysed based on Geographical detector (please see: http://www.geodetector.cn/)
 The results are put into document 'GeoDetector'
 6. The remained analysis is undertaken based on Python in Spatiotemporal data mining.ipynb
-7. car crashes in both 2019 and 2020 are considered.
+7. London's car crashes in both 2019 and 2020 are considered.
