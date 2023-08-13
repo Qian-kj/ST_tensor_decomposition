@@ -1,4 +1,6 @@
 # ST_tensor_decomposition
+Citation: Qian, K., Li, Y. Safer Traffic Recovery from the Pandemic in London – Spatiotemporal Data Mining of Car Crashes. Appl. Spatial Analysis (2023). https://doi.org/10.1007/s12061-023-09533-y
+
 This is a new trial of tensor decomposition for exploring the multidimensional patterns in urban computing.
 1. All raw data is in the document 'data'.
 2. Planar KDE is done through QGIS, while the Network KDE is done through SANET (please see: http://sanet.csis.u-tokyo.ac.jp/)
