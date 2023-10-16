@@ -1,5 +1,6 @@
 # Spatio-temporal Data Mining
 Citation: Qian, K., Li, Y. Safer Traffic Recovery from the Pandemic in London – Spatiotemporal Data Mining of Car Crashes. Appl. Spatial Analysis (2023). https://doi.org/10.1007/s12061-023-09533-y
+Selected in Databases: WHO & Europe PMC
 
 This is a new trial of tensor decomposition for exploring the multidimensional patterns in urban computing.
 1. All raw data is in the document 'data'.
